@@ -2,8 +2,6 @@
 import CountryCard from "../../_components/CountryCard";
 import { Country } from "../../types/Country";
 import Image from "next/image";
-import Link from "next/link";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import BackButton from "@/app/_components/BackButton";
 
 type Props = {
