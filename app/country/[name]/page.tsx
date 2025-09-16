@@ -7,7 +7,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import BackButton from "@/app/_components/BackButton";
 
 type Props = {
-  params: { name: string };
+  params: Promise<{ name: string }>;
 };
 
 async function getCountryByName(name: string): Promise<Country | null> {
